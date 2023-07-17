@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07272B842A659E56000AD726 /* Plan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07272B832A659E56000AD726 /* Plan.swift */; };
+		07272B862A659E77000AD726 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07272B852A659E77000AD726 /* Meal.swift */; };
+		07272B882A659E83000AD726 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07272B872A659E83000AD726 /* Product.swift */; };
+		07272B8A2A659E8D000AD726 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07272B892A659E8D000AD726 /* Store.swift */; };
+		07272B8C2A659E95000AD726 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07272B8B2A659E95000AD726 /* Recipe.swift */; };
+		07272B8E2A659EA0000AD726 /* Nutrients.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07272B8D2A659EA0000AD726 /* Nutrients.swift */; };
+		07272B902A659EA8000AD726 /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07272B8F2A659EA8000AD726 /* Day.swift */; };
+		07272B942A65A054000AD726 /* CreatePlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07272B932A65A054000AD726 /* CreatePlan.swift */; };
+		07272B962A65A843000AD726 /* DeletePlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07272B952A65A843000AD726 /* DeletePlan.swift */; };
+		07272B982A65A874000AD726 /* GetPlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07272B972A65A874000AD726 /* GetPlan.swift */; };
+		07272B9A2A65A880000AD726 /* AddPortion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07272B992A65A880000AD726 /* AddPortion.swift */; };
+		07272B9C2A65A888000AD726 /* RemovePortion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07272B9B2A65A888000AD726 /* RemovePortion.swift */; };
 		07C0471A2A62E727001927C6 /* FoodieApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C047192A62E727001927C6 /* FoodieApp.swift */; };
 		07C0471C2A62E727001927C6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C0471B2A62E727001927C6 /* ContentView.swift */; };
 		07C0471E2A62E728001927C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07C0471D2A62E728001927C6 /* Assets.xcassets */; };
@@ -14,6 +26,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		07272B832A659E56000AD726 /* Plan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plan.swift; sourceTree = "<group>"; };
+		07272B852A659E77000AD726 /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		07272B872A659E83000AD726 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		07272B892A659E8D000AD726 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		07272B8B2A659E95000AD726 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		07272B8D2A659EA0000AD726 /* Nutrients.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nutrients.swift; sourceTree = "<group>"; };
+		07272B8F2A659EA8000AD726 /* Day.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day.swift; sourceTree = "<group>"; };
+		07272B932A65A054000AD726 /* CreatePlan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePlan.swift; sourceTree = "<group>"; };
+		07272B952A65A843000AD726 /* DeletePlan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeletePlan.swift; sourceTree = "<group>"; };
+		07272B972A65A874000AD726 /* GetPlan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetPlan.swift; sourceTree = "<group>"; };
+		07272B992A65A880000AD726 /* AddPortion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPortion.swift; sourceTree = "<group>"; };
+		07272B9B2A65A888000AD726 /* RemovePortion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemovePortion.swift; sourceTree = "<group>"; };
 		07C047162A62E727001927C6 /* Foodie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Foodie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07C047192A62E727001927C6 /* FoodieApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodieApp.swift; sourceTree = "<group>"; };
 		07C0471B2A62E727001927C6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +56,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		07272B822A659E51000AD726 /* domain */ = {
+			isa = PBXGroup;
+			children = (
+				07272B922A65A046000AD726 /* scenarios */,
+				07272B912A65A03F000AD726 /* entities */,
+			);
+			path = domain;
+			sourceTree = "<group>";
+		};
+		07272B912A65A03F000AD726 /* entities */ = {
+			isa = PBXGroup;
+			children = (
+				07272B832A659E56000AD726 /* Plan.swift */,
+				07272B852A659E77000AD726 /* Meal.swift */,
+				07272B872A659E83000AD726 /* Product.swift */,
+				07272B892A659E8D000AD726 /* Store.swift */,
+				07272B8B2A659E95000AD726 /* Recipe.swift */,
+				07272B8D2A659EA0000AD726 /* Nutrients.swift */,
+				07272B8F2A659EA8000AD726 /* Day.swift */,
+			);
+			path = entities;
+			sourceTree = "<group>";
+		};
+		07272B922A65A046000AD726 /* scenarios */ = {
+			isa = PBXGroup;
+			children = (
+				07272B932A65A054000AD726 /* CreatePlan.swift */,
+				07272B952A65A843000AD726 /* DeletePlan.swift */,
+				07272B972A65A874000AD726 /* GetPlan.swift */,
+				07272B992A65A880000AD726 /* AddPortion.swift */,
+				07272B9B2A65A888000AD726 /* RemovePortion.swift */,
+			);
+			path = scenarios;
+			sourceTree = "<group>";
+		};
 		07C0470D2A62E727001927C6 = {
 			isa = PBXGroup;
 			children = (
@@ -52,6 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				07C047192A62E727001927C6 /* FoodieApp.swift */,
+				07272B822A659E51000AD726 /* domain */,
 				07C0471B2A62E727001927C6 /* ContentView.swift */,
 				07C0471D2A62E728001927C6 /* Assets.xcassets */,
 				07C0471F2A62E728001927C6 /* Preview Content */,
@@ -137,8 +197,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07272B9A2A65A880000AD726 /* AddPortion.swift in Sources */,
+				07272B942A65A054000AD726 /* CreatePlan.swift in Sources */,
+				07272B862A659E77000AD726 /* Meal.swift in Sources */,
+				07272B9C2A65A888000AD726 /* RemovePortion.swift in Sources */,
 				07C0471C2A62E727001927C6 /* ContentView.swift in Sources */,
+				07272B8C2A659E95000AD726 /* Recipe.swift in Sources */,
+				07272B882A659E83000AD726 /* Product.swift in Sources */,
+				07272B8A2A659E8D000AD726 /* Store.swift in Sources */,
+				07272B962A65A843000AD726 /* DeletePlan.swift in Sources */,
+				07272B902A659EA8000AD726 /* Day.swift in Sources */,
 				07C0471A2A62E727001927C6 /* FoodieApp.swift in Sources */,
+				07272B8E2A659EA0000AD726 /* Nutrients.swift in Sources */,
+				07272B842A659E56000AD726 /* Plan.swift in Sources */,
+				07272B982A65A874000AD726 /* GetPlan.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
