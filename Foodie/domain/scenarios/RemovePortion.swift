@@ -7,6 +7,6 @@
 
 enum RemovePortion {
     case willRemovePortion(Recipe, dayIndex: Int, mealIndex: Int)
-    case didRemovePortion
+    case didRemovePortion(dayIndex: Int, mealIndex: Int)
 }
 
