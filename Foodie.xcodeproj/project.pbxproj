@@ -19,6 +19,8 @@
 		07272B982A65A874000AD726 /* GetPlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07272B972A65A874000AD726 /* GetPlan.swift */; };
 		07272B9A2A65A880000AD726 /* AddPortion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07272B992A65A880000AD726 /* AddPortion.swift */; };
 		07272B9C2A65A888000AD726 /* RemovePortion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07272B9B2A65A888000AD726 /* RemovePortion.swift */; };
+		07272BA02A65B90B000AD726 /* AppEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07272B9F2A65B90B000AD726 /* AppEvent.swift */; };
+		07272BA22A65B946000AD726 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07272BA12A65B946000AD726 /* AppState.swift */; };
 		07C0471A2A62E727001927C6 /* FoodieApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C047192A62E727001927C6 /* FoodieApp.swift */; };
 		07C0471C2A62E727001927C6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C0471B2A62E727001927C6 /* ContentView.swift */; };
 		07C0471E2A62E728001927C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07C0471D2A62E728001927C6 /* Assets.xcassets */; };
@@ -38,6 +40,8 @@
 		07272B972A65A874000AD726 /* GetPlan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetPlan.swift; sourceTree = "<group>"; };
 		07272B992A65A880000AD726 /* AddPortion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPortion.swift; sourceTree = "<group>"; };
 		07272B9B2A65A888000AD726 /* RemovePortion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemovePortion.swift; sourceTree = "<group>"; };
+		07272B9F2A65B90B000AD726 /* AppEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEvent.swift; sourceTree = "<group>"; };
+		07272BA12A65B946000AD726 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
 		07C047162A62E727001927C6 /* Foodie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Foodie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07C047192A62E727001927C6 /* FoodieApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodieApp.swift; sourceTree = "<group>"; };
 		07C0471B2A62E727001927C6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -61,6 +65,7 @@
 			children = (
 				07272B922A65A046000AD726 /* scenarios */,
 				07272B912A65A03F000AD726 /* entities */,
+				07272BA12A65B946000AD726 /* AppState.swift */,
 			);
 			path = domain;
 			sourceTree = "<group>";
@@ -87,6 +92,7 @@
 				07272B972A65A874000AD726 /* GetPlan.swift */,
 				07272B992A65A880000AD726 /* AddPortion.swift */,
 				07272B9B2A65A888000AD726 /* RemovePortion.swift */,
+				07272B9F2A65B90B000AD726 /* AppEvent.swift */,
 			);
 			path = scenarios;
 			sourceTree = "<group>";
@@ -203,12 +209,14 @@
 				07272B9C2A65A888000AD726 /* RemovePortion.swift in Sources */,
 				07C0471C2A62E727001927C6 /* ContentView.swift in Sources */,
 				07272B8C2A659E95000AD726 /* Recipe.swift in Sources */,
+				07272BA22A65B946000AD726 /* AppState.swift in Sources */,
 				07272B882A659E83000AD726 /* Product.swift in Sources */,
 				07272B8A2A659E8D000AD726 /* Store.swift in Sources */,
 				07272B962A65A843000AD726 /* DeletePlan.swift in Sources */,
 				07272B902A659EA8000AD726 /* Day.swift in Sources */,
 				07C0471A2A62E727001927C6 /* FoodieApp.swift in Sources */,
 				07272B8E2A659EA0000AD726 /* Nutrients.swift in Sources */,
+				07272BA02A65B90B000AD726 /* AppEvent.swift in Sources */,
 				07272B842A659E56000AD726 /* Plan.swift in Sources */,
 				07272B982A65A874000AD726 /* GetPlan.swift in Sources */,
 			);

@@ -7,5 +7,5 @@
 
 enum AddPortion {
     case willAddPortion(Recipe, dayIndex: Int, mealIndex: Int)
-    case didAddPortion
+    case didAddPortion(dayIndex: Int, mealIndex: Int)
 }
